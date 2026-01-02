@@ -1,0 +1,41 @@
+*{margin: 1;
+padding: 0;
+box-sizing: border-box;
+}
+
+body, html {
+background-color:#181866fa;
+font-family: Impact, Haettenschweiler;
+position: relative;
+background-image: url("asset/mic sales photos/background.jfif");
+
+
+
+
+}
+header{
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+
+    display:flex;
+    justify-content: space space-between;
+    gap: 30px;
+    align-items: center;
+
+
+
+
+
+
+
+}
+.name{
+margin: left;
+color: white;
+
+
+}
