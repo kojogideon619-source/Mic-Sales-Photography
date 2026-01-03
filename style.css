@@ -4,15 +4,12 @@ box-sizing: border-box;
 }
 
 body, html {
-background-color:#181866fa;
+background-color:#fff;
 font-family: Impact, Haettenschweiler;
 position: relative;
-background-image: url("asset/mic sales photos/background.jfif");
-
-
-
-
+background-image: url("asset/mic sales photos/colorful-1835921_1280.jpg");
 }
+
 header{
     background: transparent;
     position: fixed;
@@ -20,22 +17,29 @@ header{
     left: 0;
     width: 100%;
     z-index: 1;
-
     display:flex;
     justify-content: space space-between;
     gap: 30px;
     align-items: center;
-
-
-
-
-
-
-
 }
+
 .name{
 margin: left;
 color: white;
-
-
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.nav-links a:hover{
+    color: blueviolet;
 }
