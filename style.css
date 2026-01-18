@@ -112,7 +112,7 @@ section {
 .gallery-grid-slider {
     display: flex;
     width: 400%; /* Total of 4 sets */
-    animation: gallerySlide16 240s infinite ease-in-out;
+    animation: gallerySlide16 120s infinite ease-in-out;
 }
 
 .gallery-set {
