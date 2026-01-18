@@ -3,27 +3,105 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mic Sales Photography</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Mic Sales Photography | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="slideshow">
+
+    <nav class="navbar1">
+        <div class="logoname">Mic Sales</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Book Now</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero-slideshow">
         <div class="textoverlay">
-            <nav class="navbar1">
-                <div class="logoname">Mic Sales</div>
-                <ul class="nav-links">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
             <div class="content">
-                <h1>CAPTURING MOMENTS. CREATING MEMORIES</h1>
+                <h1>CAPTURING MOMENTS.<br>CREATING MEMORIES</h1>
                 <div class="bookings">
-                    <a href="#">Book Us</a>
+                    <a href="#contact">Book A Session</a>
                 </div>
             </div>
         </div>
     </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>ABOUT US</h2>
+            <div class="underline"></div>
+            <p class="section-desc">We are professional visual storytellers dedicated to preserving your most precious memories through high-quality photography and artistic vision.</p>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>GALLERY</h2>
+        <div class="underline"></div>
+        
+        <div class="gallery-viewport">
+            <div class="gallery-grid-slider">
+                
+                <div class="gallery-set">
+                    <div class="gallery-item"><img src="asset/mic sales photos/photo_2025-09-16_00-15-44 (2).jpg" alt="Photo 1"></div>
+                    <div class="gallery-item"><img src="./asset/mic sales photos/photo_2025-09-16_00-15-44.jpg" alt="Photo 2"></div>
+                    <div class="gallery-item"><img src="./asset/mic sales photos/photo_2025-09-16_00-17-48.jpg" alt="Photo 3"></div>
+                    <div class="gallery-item"><img src="./asset/mic sales photos/photo_2025-09-16_01-05-20.jpg" alt="Photo 4"></div>
+                </div>
+
+                <div class="gallery-set">
+                    <div class="gallery-item"><img src="./asset/mic sales photos/photo_2025-09-16_01-06-34.jpg" alt="Photo 5"></div>
+                    <div class="gallery-item"><img src="./asset/mic sales photos/photo_2025-09-16_01-09-38.jpg" alt="Photo 6"></div>
+                    <div class="gallery-item"><img src="./asset/mic sales photos/photo_2025-09-16_01-13-30.jpg" alt="Photo 7"></div>
+                    <div class="gallery-item"><img src="./asset/mic sales photos/photo_2025-09-16_01-26-37.jpg" alt="Photo 8"></div>
+                </div>
+
+                <div class="gallery-set">
+                    <div class="gallery-item"><img src="./asset/mic sales photos/photo_2025-12-30_12-44-20 (2).jpg" alt="Photo 9"></div>
+                    <div class="gallery-item"><img src="./asset/mic sales photos/photo_2025-12-30_12-50-09.jpg" alt="Photo 10"></div>
+                    <div class="gallery-item"><img src="./asset/mic sales photos/photo_2025-12-30_12-44-20 (3).jpg" alt="Photo 11"></div>
+                    <div class="gallery-item"><img src="./asset/mic sales photos/photo_2025-12-30_12-58-46.jpg" alt="Photo 12"></div>
+                </div>
+
+                <div class="gallery-set">
+                    <div class="gallery-item"><img src="./asset/mic sales photos/photo_2025-12-30_13-13-10.jpg" alt="Photo 13"></div>
+                    <div class="gallery-item"><img src="./asset/mic sales photos/photo_2025-12-30_13-01-35.jpg" alt="Photo 14"></div>
+                    <div class="gallery-item"><img src="./asset/mic sales photos/photo_2025-12-30_12-59-23.jpg" alt="Photo 15"></div>
+                    <div class="gallery-item"><img src="./asset/mic sales photos/photo_2025-12-30_13-13-04.jpg" alt="Photo 16"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="booking-container">
+            <h2>BOOK A SESSION</h2>
+            <div class="underline"></div>
+            <form class="booking-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <select required>
+                    <option value="">Select Package</option>
+                    <option value="portrait">Portrait</option>
+                    <option value="wedding">Wedding</option>
+                    <option value="event">Events</option>
+                </select>
+                <input type="date" required>
+                <textarea placeholder="Tell us about your project..."></textarea>
+                <button type="submit" class="btn-submit">CONFIRM BOOKING</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Mic Sales Photography. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
