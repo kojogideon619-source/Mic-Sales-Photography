@@ -67,8 +67,9 @@ body {
 }
 
 @keyframes heroRotate {
-    0%, 48% { background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('asset/mic sales photos/pexels-padrinan-19671.jpg'); }
-    50%, 98% { background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('asset/mic sales photos/background 2.jpg'); }
+    0%, 45% { background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('asset/mic sales photos/pexels-padrinan-19671.jpg'); }
+    50%, 95% { background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('asset/mic sales photos/background 2.jpg'); }
+    100% { background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('asset/mic sales photos/pexels-padrinan-19671.jpg'); }
 }
 
 .content h1 {
